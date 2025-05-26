@@ -77,7 +77,7 @@ with st.form("Registration form"):
             st.success("submitted succesfully")
 
 import numpy as np
-import matplotlib.pyplot as plt
+
 x=np.linspace(10,20,100)
 
 xbar=["Monday","Tuesday","Wednesday","Thursday","Friday"]
@@ -85,6 +85,7 @@ ybar=[10,30,15,45,54]
 
 st.sidebar.markdown("# Side bar")
 opt=st.sidebar.radio("Graph",options=("line","bar","scatter"))
+import matplotlib.pyplot as plt
 if opt == "line" :
     st.markdown("<h1>line graph</h1>",unsafe_allow_html=True)
     fig=plt.figure()
