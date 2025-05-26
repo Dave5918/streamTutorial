@@ -1,12 +1,12 @@
 import streamlit as st
 
-st.title("Hello...This streamlit web app")
+st.title("Hello...This's streamlit web app")
 st.header("HOLA!")
-st.subheader("welcome!")
+st.subheader("welcome, NOTE:It is not a real app, it was meant to help me master the basics")
 st.text("""
 So, this is what i developed  while
 learning the basics of streamlit
-from a youtube tutorial, enjoy!.
+from a youtube tutorial.
 """)
 st.markdown("**Hello**,*world*")
 st.caption("..Dave..")
